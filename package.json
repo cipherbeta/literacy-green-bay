@@ -1,0 +1,29 @@
+{
+  "name": "literacy-green-bay",
+  "version": "1.0.0",
+  "description": "A NextJS implementation of a Literacy Green Bay website, using SSR and a modern design philosophy.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "Literacy",
+    "Green Bay"
+  ],
+  "author": "Isaac Doud",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "bulma": "^0.7.2",
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "next-routes": "^1.4.2",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "sanitize.css": "^8.0.0"
+  }
+}

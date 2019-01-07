@@ -1,0 +1,36 @@
+$font_family: 'Work Sans', sans-serif;
+$primary: #648852;
+
+@import "~bulma";
+
+body {
+    font-family: $font_family;
+    font-weight: 400
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-weight: 900;
+}
+
+a {
+    color: $primary;
+}
+
+.navbar-item a {
+    &:hover {
+        color: $primary;
+    }
+}
+
+.navbar-item i {
+    margin-right: .25em;
+}
+
+.social a i {
+    margin: .25em .125em .125em;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center center;
+}
